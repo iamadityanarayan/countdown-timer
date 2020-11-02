@@ -1,0 +1,79 @@
+*{
+    box-sizing: border-box;
+}
+
+:root{
+    /* font */
+    --font-open: 'Open Sans', sans-serif;
+    --font-dance: 'Dancing Script', cursive;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: var(--font-open);
+
+    width: 100%;
+    background-image: url("./image/2.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    color:white;
+    
+    overflow-x: hidden;
+}
+
+h1{
+    font-weight: normal;
+    font-size: 4rem;
+    margin-top: 5rem;
+    text-align: center;
+}
+
+.countdown-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.countDown-el{
+    text-align: center;
+}
+
+.big-text{
+    font-size: 6rem;
+    line-height: 1;
+    margin: 0 2rem;
+}
+
+.countDown-el span{
+    font-size: 1.3rem;
+}
+
+.detail-countdown{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 10rem;
+}
+.big-text-1{
+    font-size: 2rem;
+    line-height: 1;
+    margin: 0 2rem;
+}
+
+.p{
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+
+
+
+
+
