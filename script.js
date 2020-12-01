@@ -11,7 +11,7 @@ function countdown(){
 
     const totalSeconds = (newYearDate - currentDate) / 1000;
 
-    const months = Math.floor(totalSeconds / 3600 / 24 / 30);
+    const months = Math.floor(totalSeconds / 3600 / 24 / 31);
     const days = Math.floor(totalSeconds / 3600 / 24);
     const hours = Math.floor(totalSeconds / 3600) % 24;
     const minutes = Math.floor(totalSeconds / 60) % 60 ;
@@ -27,7 +27,7 @@ function countdown(){
     document.querySelector('#minutes').innerHTML = formateTime(minutes);
     document.querySelector('#seconds').innerHTML = formateTime(seconds);
 
-    const month = Math.floor(totalSeconds / 3600 / 24 / 30);
+    const month = Math.floor(totalSeconds / 3600 / 24 / 31);
     const day = Math.floor(totalSeconds / 3600 / 24);
     const hour = Math.floor(totalSeconds / 3600);
     const minute = Math.floor(totalSeconds / 60);
