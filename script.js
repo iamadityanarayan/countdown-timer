@@ -1,4 +1,4 @@
-const newYear = '1 Jan 2022';
+const newYear = new Date().getYear();
 const totalMonths = [
     'January','February','March','April ','May ','June ',
     'July','August','September','October','November','December'];
