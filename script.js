@@ -1,4 +1,11 @@
-const newYear = new Date().getYear();
+const newYear = `${new Date().getDay()} Jan ${new Date().getFullYear() + 1}` ;
+const newYearText = `${new Date().getFullYear() + 1}`;
+
+document.querySelector('#nyt').innerHTML = `New Year Eve ${newYearText}`;
+
+document.title = `New Year | ${newYearText}`
+
+console.log(newYear)
 const totalMonths = [
     'January','February','March','April ','May ','June ',
     'July','August','September','October','November','December'];
